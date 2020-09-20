@@ -1,0 +1,7 @@
+//component
+what is component
+how to create component
+interpolation
+event binding
+app(parent)
+my child

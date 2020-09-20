@@ -1,0 +1,5 @@
+
+<input  *ngIf="flag" type="text"  #searchTxt [(ngModel)]="mydata">
+<button (click)="search(searchTxt.value)" >Search</button>
+{{mydata}}
+<button (click)="toggle()">Toggle</button>
