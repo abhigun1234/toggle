@@ -3,3 +3,7 @@
 <button (click)="search(searchTxt.value)" >Search</button>
 {{mydata}}
 <button (click)="toggle()">Toggle</button>
+<ul *ngFor="let team of iplTeams">
+
+<li>{{team}}</li>
+</ul>

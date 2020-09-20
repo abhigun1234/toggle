@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegisterComponent implements OnInit {
   mydata='hello'
+  iplTeams=["chennai","mumbai","kolkata","hyderabaad"]
   flag:boolean=true;
   constructor() { }
 
